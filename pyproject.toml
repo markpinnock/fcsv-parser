@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Medical Image Analysis",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
 ]
 
 [project.urls]
