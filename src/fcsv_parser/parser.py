@@ -69,9 +69,9 @@ def parse_fcsv(fcsv_lines: List[str]) -> Fiducial:
         elements = line.split(",")
         description = elements[11]
 
-        x_coord = -float(elements[1])
-        y_coord = -float(elements[2])
-        z_coord = -float(elements[3])
+        x_coord = float(elements[1])
+        y_coord = float(elements[2])
+        z_coord = float(elements[3])
 
         fiducial.fiducial_dict[description] = (x_coord, y_coord, z_coord)
 
