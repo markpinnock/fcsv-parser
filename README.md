@@ -17,7 +17,7 @@ user@account:~/fcsv-parser$ source fcsv/bin/activate
 If Windows is used, conda is recommended:
 
 ```bash
-(base) C:\User\fcsv-parser> conda env create -n fcsv python=3.8
+(base) C:\User\fcsv-parser> conda create -n fcsv python=3.8
 (base) C:\User\fcsv-parser> conda activate fcsv
 (fcsv) C:\User\fcsv-parser> pip install -r requirements.txt
 ```
